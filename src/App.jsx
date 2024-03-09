@@ -2,9 +2,9 @@ import React, {useState, useEffect} from 'react'
 import "./App.css"
 import TaskForm from './components/TaskForm'
 import TaskColumn from './components/TaskColumn'
-import todoIcon from './assets/img/direct-hit.png'
-import doingIcon from './assets/img/glowing-star.png'
-import doneIcon from './assets/img/check-mark-button.png'
+import todoIcon from './assets/img/clipboard-list-solid.svg'
+import doingIcon from './assets/img/bolt-solid.svg'
+import doneIcon from './assets/img/circle-check-solid.svg'
 
 const oldTasks =localStorage.getItem("tasks")
 console.log(oldTasks);

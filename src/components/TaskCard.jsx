@@ -1,7 +1,7 @@
 import React from 'react'
 import Tag from './Tag'
 import './Css/TaskCard.css'
-import deleteIcon from '../assets/img/delete.png'
+import deleteIcon from '../assets/img/trash-solid.svg'
 
 const TaskCard = ({title, tags, handleDelete, index}) => {
   return (
